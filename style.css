@@ -1,0 +1,164 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.2rem;
+  background: linear-gradient(#f6b0f6ae, #b23aee);
+  color: #4f4f4f;
+}
+
+.formulario {
+  margin: 60px;
+  background-color: #fff;
+  padding: 100px;
+  padding-top: 60px;
+  border-radius: 7px;
+  box-shadow: -20px 20px #9932cd4c;
+}
+
+h1 {
+  margin-top: 0px;
+  color: #b23aee;
+  margin-bottom: 0.4rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0rem;
+}
+
+.cabecalho {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+  margin-bottom: 0px;
+  column-gap: 3.5rem;
+}
+
+input#email {
+  width: 90%;
+}
+
+.label-email {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  border-radius: 15px;
+  font-size: 1rem;
+  padding: 10px;
+  border: thin solid #b23aee;
+}
+
+.radio,
+.checkbox {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.radio label,
+.checkbox label {
+  margin: 0px;
+  display: inline-block;
+}
+
+.radio input,
+.checkbox input {
+  margin-top: 10px;
+}
+
+.sms {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-start: 2;
+  margin-top: 0.2rem;
+  margin-left: 0px;
+}
+
+.smsLabel {
+  font-size: 0.8rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  margin-top: 2rem;
+}
+
+.radio {
+  margin-left: 0px;
+}
+
+input#numeroAnimais {
+  width: 50px;
+  border-radius: 100px;
+}
+
+textarea#quaisAnimais, textarea#observacoes, textarea#mensagem {
+  border: thin solid #b23aee;
+  border-radius: 7px;
+}
+
+input#outrosMoradia2, input#outrosPreferencia2 {
+  width: 90%;
+}
+
+select {
+  font-size: 1rem;
+  padding: 10px;
+  border: thin solid #b23aee;
+  color: inherit;
+  border-radius: 7px;
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  color: #b23aee;
+}
+
+.termos {
+  margin: 0px;
+  font-size: 1.1rem;
+}
+
+input#data {
+  display: block;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #f9c6f9ae;
+  color: #b23aee;
+  margin-top: 20px;
+  border: thin solid #f9c6f9ae;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fd8afdae;
+  color: #b23aee;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
