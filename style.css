@@ -11,7 +11,7 @@ body {
   padding: 100px;
   padding-top: 60px;
   border-radius: 7px;
-  box-shadow: -20px 20px #9932cd4c;
+  box-shadow: -20px 20px #9932cd4c;  
 }
 
 h1 {
@@ -33,7 +33,7 @@ p {
   column-gap: 3.5rem;
 }
 
-input#email {
+input#email, input#nome, input#sobrenome, input#cpf, input#telefone {
   width: 90%;
 }
 
@@ -161,4 +161,70 @@ footer {
   display: flex;
   justify-content: center;
   color: #fff;
+}
+
+@media (max-width: 750px) {
+body {
+  font-size: 1rem;
+}
+
+.cabecalho {
+display: grid;
+grid-template-columns: max-content;
+}
+
+.cabecalho input {
+  font-size: 0.8rem;
+  width: 90%;
+}
+
+.cabecalho label {
+  margin-top: 25px;
+}
+
+textarea#observacoes, textarea#mensagem {
+  width: 90%;
+}
+}
+
+@media (min-width: 950px) {
+.formulario {
+  display: flex;
+  justify-self: space-around;
+  margin: 30px auto;
+  max-width: 800px;
+}
+
+.cabecalho input {
+  width: 90%;
+}
+
+input#email, input#outrosMoradia2, input#outrosPreferencia2 {
+  width: 95%;
+}
+}
+
+@media (max-width: 650px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  .formulario {
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 25px;
+  }
+
+  .cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    margin: 0px;
+  }
+
+  p, label, h3, input, a, select, .checkbox, button {
+    font-size: inherit;
+  }
 }
